@@ -1,5 +1,5 @@
 #!/bin/bash
-EMAIL='srikanthkoni@digitalairco.com' 
+EMAIL='sample@sample.com' 
 function sysstat {
 echo -e "
  
@@ -10,8 +10,8 @@ Health Check Report (CPU,Process,Disk Usage, Memory)
 #hostname command gives hostname output
 #uname command gives Kernel version output
 
-Hostname : `hostname`
-Kernel Version : `uname -r`
+Hostname : `give your system hostname`
+Kernel Version : `your kernel version uname -r`
 Uptime : `uptime | sed 's/.*up \([^,]*\), .*/\1/'`
 Last Reboot Time : `who -b | awk '{print $3,$4}'`
  
