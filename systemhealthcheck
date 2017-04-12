@@ -1,5 +1,5 @@
 #!/bin/bash
-EMAIL='sample@sample.com' 
+EMAIL='givemail@sample.com' 
 function sysstat {
 echo -e "
  
